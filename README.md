@@ -27,9 +27,18 @@ This project involved scraping housing information from Centaline Property Agenc
 1. **Interactive Map:**
    - Imported cleaned dataset.
    - Created a scatter plot on a map using Plotly Express, showing house information on an interactive map of Hong Kong.
+
+   ![Interactive Map](images/map_figure.png)
+
 2. **Distribution of Home Sizes:**
    - Created a histogram of usable area using Matplotlib.
+
+     ![Home Sizes Distribution](images/home_sizes_distribution.png)
+
    - Created a boxplot of usable area and price per square foot using Matplotlib.
+
+     ![Home Sizes Boxplot](images/home_sizes_boxplot.png)
+     ![Home Prices per Square Foot Boxplot](images/home_prices_per_sq_foot_boxplot.png)
 
 ### Investigation: Location vs. Size
 1. **Ranking by Price Per Square Foot:**
@@ -37,10 +46,16 @@ This project involved scraping housing information from Centaline Property Agenc
    - Grouped the dataset into 161 groups:
      - **Peak:** Highest average price per square foot (61618.18 HKD).
      - **Heng On:** Lowest average price per square foot (7094.27 HKD).
-   - Plotted bar charts of the top 20 areas and bottom 30 areas in terms of price per square foot.
+   - Plotted bar charts of the top 20 areas and bottom 20 areas in terms of price per square foot.
+
+     ![Mean Price per Square Foot by Area (Top 20)](images/mean_price_per_sq_foot_by_area_top_20.png)
+     ![Mean Price per Square Foot by Area (Bottom 20)](images/mean_price_per_sq_foot_by_area_bottom_20.png)
+
 2. **Scatter Plot Analysis:**
    - Created a scatter plot to examine the relation between price per square foot and house sizes.
    - Discovered that the largest flat, Mayfair By The Sea (usable area 6,890 ft²), costs HKD 10,145/ft², below the average price per square foot.
+
+     ![Price per Square Foot vs Area](images/price_per_sq_foot_vs_area_scatter.png)
 
 ### Correlation Analysis
 - **Correlation Coefficients:**
@@ -51,6 +66,9 @@ This project involved scraping housing information from Centaline Property Agenc
 - Subset the dataset into two dataframes: "Mid-Levels West" and "Tseung Kwan O".
 - Created scatter plots and calculated correlations between price per square foot and area.
 - Concluded that while house sizes can impact the price per area, location plays a more significant role in determining house prices.
+
+     ![Mid-Levels West Price per Square Foot vs Area](images/mid_levels_west_price_per_sq_foot_vs_area_scatter.png)
+     ![Tseung Kwan O Price per Square Foot vs Area](images/tseung_kwan_o_price_per_sq_foot_vs_area_scatter.png)
 
 ## Conclusion
 This project provided valuable insights into the Hong Kong housing market, highlighting the importance of location over house size in influencing property prices. The visualizations and analyses conducted offer a comprehensive view of housing trends and price distributions across different areas of Hong Kong.
