@@ -29,6 +29,8 @@ This project involved scraping housing information from Centaline Property Agenc
    - Created a scatter plot on a map using Plotly Express, showing house information on an interactive map of Hong Kong.
 
    ![Interactive Map](images/map_figure.png)
+   
+   You can view the interactive map [here](map_figure.html).
 
 2. **Distribution of Home Sizes:**
    - Created a histogram of usable area using Matplotlib.
