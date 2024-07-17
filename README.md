@@ -33,12 +33,14 @@ This project involved scraping housing information from Centaline Property Agenc
 2. **Distribution of Home Sizes:**
    - Created a histogram of usable area using Matplotlib.
 
-     ![Home Sizes Distribution](images/home_sizes_distribution.png)
+   ![Home Sizes Distribution](images/home_sizes_distribution.png)
 
-   - Created a boxplot of usable area and price per square foot using Matplotlib.
+   - Created box plots of usable area and price per square foot using Matplotlib.
 
-     ![Home Sizes Boxplot](images/home_sizes_boxplot.png)
-     ![Home Prices per Square Foot Boxplot](images/home_prices_per_sq_foot_boxplot.png)
+   <div style="display: flex; justify-content: space-between;">
+     <img src="images/home_sizes_boxplot.png" alt="Home Sizes Boxplot" style="width: 48%;">
+     <img src="images/home_prices_per_sq_foot_boxplot.png" alt="Home Prices per Square Foot Boxplot" style="width: 48%;">
+   </div>
 
 ### Investigation: Location vs. Size
 1. **Ranking by Price Per Square Foot:**
@@ -48,14 +50,16 @@ This project involved scraping housing information from Centaline Property Agenc
      - **Heng On:** Lowest average price per square foot (7094.27 HKD).
    - Plotted bar charts of the top 20 areas and bottom 20 areas in terms of price per square foot.
 
-     ![Mean Price per Square Foot by Area (Top 20)](images/mean_price_per_sq_foot_by_area_top_20.png)
-     ![Mean Price per Square Foot by Area (Bottom 20)](images/mean_price_per_sq_foot_by_area_bottom_20.png)
+   <div style="display: flex; justify-content: space-between;">
+     <img src="images/mean_price_per_sq_foot_by_area_top_20.png" alt="Mean Price per Square Foot by Area (Top 20)" style="width: 48%;">
+     <img src="images/mean_price_per_sq_foot_by_area_bottom_20.png" alt="Mean Price per Square Foot by Area (Bottom 20)" style="width: 48%;">
+   </div>
 
 2. **Scatter Plot Analysis:**
    - Created a scatter plot to examine the relation between price per square foot and house sizes.
    - Discovered that the largest flat, Mayfair By The Sea (usable area 6,890 ft²), costs HKD 10,145/ft², below the average price per square foot.
 
-     ![Price per Square Foot vs Area](images/price_per_sq_foot_vs_area_scatter.png)
+   ![Price per Square Foot vs Area](images/price_per_sq_foot_vs_area_scatter.png)
 
 ### Correlation Analysis
 - **Correlation Coefficients:**
@@ -67,8 +71,10 @@ This project involved scraping housing information from Centaline Property Agenc
 - Created scatter plots and calculated correlations between price per square foot and area.
 - Concluded that while house sizes can impact the price per area, location plays a more significant role in determining house prices.
 
-     ![Mid-Levels West Price per Square Foot vs Area](images/mid_levels_west_price_per_sq_foot_vs_area_scatter.png)
-     ![Tseung Kwan O Price per Square Foot vs Area](images/tseung_kwan_o_price_per_sq_foot_vs_area_scatter.png)
+   <div style="display: flex; justify-content: space-between;">
+     <img src="images/mid_levels_west_price_per_sq_foot_vs_area_scatter.png" alt="Mid-Levels West Price per Square Foot vs Area" style="width: 48%;">
+     <img src="images/tseung_kwan_o_price_per_sq_foot_vs_area_scatter.png" alt="Tseung Kwan O Price per Square Foot vs Area" style="width: 48%;">
+   </div>
 
 ## Conclusion
 This project provided valuable insights into the Hong Kong housing market, highlighting the importance of location over house size in influencing property prices. The visualizations and analyses conducted offer a comprehensive view of housing trends and price distributions across different areas of Hong Kong.
@@ -94,4 +100,3 @@ This project provided valuable insights into the Hong Kong housing market, highl
 ## Acknowledgements
 - Centaline Property Agency for providing the housing data.
 - Google Geocoding API for the geolocation service.
-
