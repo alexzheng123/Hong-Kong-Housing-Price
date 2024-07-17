@@ -33,7 +33,7 @@ This project involved scraping housing information from Centaline Property Agenc
 2. **Distribution of Home Sizes:**
    - Created a histogram of usable area using Matplotlib.
 
-   ![Home Sizes Distribution](images/home_sizes_distribution.png)
+   <img src="images/home_sizes_distribution.png" alt="Home Sizes Distribution" style="width: 60%;">
 
    - Created box plots of usable area and price per square foot using Matplotlib.
 
@@ -59,7 +59,7 @@ This project involved scraping housing information from Centaline Property Agenc
    - Created a scatter plot to examine the relation between price per square foot and house sizes.
    - Discovered that the largest flat, Mayfair By The Sea (usable area 6,890 ft²), costs HKD 10,145/ft², below the average price per square foot.
 
-   ![Price per Square Foot vs Area](images/price_per_sq_foot_vs_area_scatter.png)
+   <img src="images/price_per_sq_foot_vs_area_scatter.png" alt="Price per Square Foot vs Area" style="width: 60%;">
 
 ### Correlation Analysis
 - **Correlation Coefficients:**
